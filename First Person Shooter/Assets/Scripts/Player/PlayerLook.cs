@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,8 +7,8 @@ public class PlayerLook : MonoBehaviour
     public Camera cam;
     private float xRotation = 0f;
 
-    public float xSensitivity = 100f;
-    public float ySensitivity = 100f;
+    public float xSensitivity = 10f;
+    public float ySensitivity = 10f;
 
     public void ProcessLook(Vector2 input)
     {
